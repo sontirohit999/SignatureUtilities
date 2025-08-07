@@ -49,7 +49,7 @@ public fun verify_signature(
 ## Usage Example
 
 ```move
-// Generate a signature (off-chain signing required)
+
 signature_utilities::signature_utils::generate_signature(
     &signer,
     b"Hello, Aptos!",
@@ -57,7 +57,7 @@ signature_utilities::signature_utils::generate_signature(
     public_key_bytes
 );
 
-// Verify the signature
+
 let is_valid = signature_utilities::signature_utils::verify_signature(
     account_address,
     b"Hello, Aptos!"
@@ -95,4 +95,5 @@ MIT License
 ## Contract Details
 
 0xc59cf84eebf00eae3efe802c148ee1c8d13f9221087750e4d4b35e3dd780e204
+
 ![alt text]({539A1B78-EA58-4F01-B817-58A98CF699B5}.png)
